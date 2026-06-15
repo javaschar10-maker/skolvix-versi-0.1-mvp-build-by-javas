@@ -1,0 +1,263 @@
+{
+  "mapel": "Matematika",
+  "jenjang": "SMP Kelas 7",
+  "bab": "Bab 1 - Bilangan Bulat",
+  "sumber_buku": "Buku Matematika Kelas VII Kurikulum Merdeka (SIBI)",
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "Hasil dari (-8) + 5 adalah...",
+      "opsi": ["-3", "3", "-13", "13"],
+      "jawaban": 0
+    },
+    {
+      "id": 2,
+      "pertanyaan": "Hasil dari 12 - (-4) adalah...",
+      "opsi": ["8", "-8", "16", "-16"],
+      "jawaban": 2
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Hasil dari (-3) x (-6) adalah...",
+      "opsi": ["-18", "18", "9", "-9"],
+      "jawaban": 1
+    },
+    {
+      "id": 4,
+      "pertanyaan": "Hasil dari (-20) : 4 adalah...",
+      "opsi": ["-5", "5", "-16", "16"],
+      "jawaban": 0
+    },
+    {
+      "id": 5,
+      "pertanyaan": "Urutan bilangan dari yang terkecil: -5, 3, -8, 0, 2 adalah...",
+      "opsi": [
+        "-8, -5, 0, 2, 3",
+        "3, 2, 0, -5, -8",
+        "-5, -8, 0, 2, 3",
+        "0, -5, -8, 2, 3"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 6,
+      "pertanyaan": "Lawan dari bilangan -7 adalah...",
+      "opsi": ["7", "-7", "0", "1/7"],
+      "jawaban": 0
+    },
+    {
+      "id": 7,
+      "pertanyaan": "Hasil dari 6 + (-9) - (-2) adalah...",
+      "opsi": ["-1", "1", "-17", "17"],
+      "jawaban": 0
+    },
+    {
+      "id": 8,
+      "pertanyaan": "Nilai mutlak dari -15 adalah...",
+      "opsi": ["-15", "15", "0", "1"],
+      "jawaban": 1
+    },
+    {
+      "id": 9,
+      "pertanyaan": "Hasil dari (-2)^3 adalah...",
+      "opsi": ["8", "-8", "6", "-6"],
+      "jawaban": 1
+    },
+    {
+      "id": 10,
+      "pertanyaan": "Suhu di kota A adalah -5°C, sedangkan suhu di kota B adalah 12°C lebih tinggi dari kota A. Suhu kota B adalah...",
+      "opsi": ["7°C", "-7°C", "17°C", "-17°C"],
+      "jawaban": 0
+    },
+    {
+      "id": 11,
+      "pertanyaan": "Hasil dari 15 + (-20) adalah...",
+      "opsi": ["-5", "5", "-35", "35"],
+      "jawaban": 0
+    },
+    {
+      "id": 12,
+      "pertanyaan": "Hasil dari (-7) - 8 adalah...",
+      "opsi": ["-15", "15", "-1", "1"],
+      "jawaban": 0
+    },
+    {
+      "id": 13,
+      "pertanyaan": "Hasil dari (-4) x 9 adalah...",
+      "opsi": ["36", "-36", "5", "-5"],
+      "jawaban": 1
+    },
+    {
+      "id": 14,
+      "pertanyaan": "Hasil dari 45 : (-9) adalah...",
+      "opsi": ["5", "-5", "54", "-54"],
+      "jawaban": 1
+    },
+    {
+      "id": 15,
+      "pertanyaan": "Hasil dari (-6) x (-7) adalah...",
+      "opsi": ["-42", "42", "-13", "13"],
+      "jawaban": 1
+    },
+    {
+      "id": 16,
+      "pertanyaan": "Bilangan yang terletak di antara -3 dan 2 pada garis bilangan adalah...",
+      "opsi": ["-1, 0, 1", "-4, -5", "3, 4", "5, 6"],
+      "jawaban": 0
+    },
+    {
+      "id": 17,
+      "pertanyaan": "Hasil dari (-15) + (-25) adalah...",
+      "opsi": ["10", "-10", "40", "-40"],
+      "jawaban": 3
+    },
+    {
+      "id": 18,
+      "pertanyaan": "Hasil dari 20 - 35 adalah...",
+      "opsi": ["15", "-15", "55", "-55"],
+      "jawaban": 1
+    },
+    {
+      "id": 19,
+      "pertanyaan": "Nilai mutlak dari 23 adalah...",
+      "opsi": ["-23", "23", "0", "1/23"],
+      "jawaban": 1
+    },
+    {
+      "id": 20,
+      "pertanyaan": "Hasil dari (-3)^2 adalah...",
+      "opsi": ["-9", "9", "-6", "6"],
+      "jawaban": 1
+    },
+    {
+      "id": 21,
+      "pertanyaan": "Hasil dari (-2) x 5 x (-3) adalah...",
+      "opsi": ["-30", "30", "-10", "10"],
+      "jawaban": 1
+    },
+    {
+      "id": 22,
+      "pertanyaan": "Hasil dari 8 + (-3) x 2 adalah...",
+      "opsi": ["2", "10", "22", "-2"],
+      "jawaban": 0
+    },
+    {
+      "id": 23,
+      "pertanyaan": "Hasil dari (-10) + 4 - (-6) adalah...",
+      "opsi": ["0", "-12", "20", "-20"],
+      "jawaban": 0
+    },
+    {
+      "id": 24,
+      "pertanyaan": "Hasil dari 100 : (-25) adalah...",
+      "opsi": ["4", "-4", "25", "-25"],
+      "jawaban": 1
+    },
+    {
+      "id": 25,
+      "pertanyaan": "Bilangan bulat negatif terbesar yang lebih kecil dari -2 adalah...",
+      "opsi": ["-1", "-3", "0", "-2"],
+      "jawaban": 1
+    },
+    {
+      "id": 26,
+      "pertanyaan": "Hasil dari (-9) x (-9) adalah...",
+      "opsi": ["81", "-81", "18", "-18"],
+      "jawaban": 0
+    },
+    {
+      "id": 27,
+      "pertanyaan": "Hasil dari -50 + 30 + (-10) adalah...",
+      "opsi": ["-30", "30", "-90", "90"],
+      "jawaban": 0
+    },
+    {
+      "id": 28,
+      "pertanyaan": "Hasil dari 7 - (-7) + (-7) adalah...",
+      "opsi": ["7", "-7", "21", "-21"],
+      "jawaban": 0
+    },
+    {
+      "id": 29,
+      "pertanyaan": "Manakah pernyataan yang benar?",
+      "opsi": [
+        "-10 lebih besar dari -5",
+        "-5 lebih besar dari -10",
+        "-5 sama dengan -10",
+        "-10 lebih besar dari 0"
+      ],
+      "jawaban": 1
+    },
+    {
+      "id": 30,
+      "pertanyaan": "Hasil dari (-12) : (-3) x 2 adalah...",
+      "opsi": ["8", "-8", "2", "-2"],
+      "jawaban": 0
+    },
+    {
+      "id": 31,
+      "pertanyaan": "Andi memiliki hutang Rp15.000 lalu meminjam lagi Rp8.000. Total hutang Andi sekarang dapat dinyatakan sebagai...",
+      "opsi": ["-23.000", "23.000", "-7.000", "7.000"],
+      "jawaban": 0
+    },
+    {
+      "id": 32,
+      "pertanyaan": "Sebuah pesawat selam berada pada kedalaman 80 meter di bawah permukaan laut, lalu naik 25 meter. Posisi pesawat selam sekarang adalah...",
+      "opsi": ["-55 meter", "-105 meter", "55 meter", "105 meter"],
+      "jawaban": 0
+    },
+    {
+      "id": 33,
+      "pertanyaan": "Suhu sebuah ruangan mula-mula 4°C. Karena AC menyala, suhu turun 9°C setiap jam selama 2 jam. Suhu ruangan sekarang adalah...",
+      "opsi": ["-14°C", "14°C", "-18°C", "22°C"],
+      "jawaban": 0
+    },
+    {
+      "id": 34,
+      "pertanyaan": "Seekor burung berada 12 meter di atas permukaan tanah, kemudian terbang turun 20 meter untuk menangkap ikan di sungai. Posisi burung sekarang relatif terhadap tanah adalah...",
+      "opsi": ["-8 meter", "8 meter", "-32 meter", "32 meter"],
+      "jawaban": 0
+    },
+    {
+      "id": 35,
+      "pertanyaan": "Lift sebuah gedung berada di lantai 3. Lift tersebut turun 5 lantai menuju basement. Lift tersebut sekarang berada di lantai...",
+      "opsi": ["-2", "2", "-8", "8"],
+      "jawaban": 0
+    },
+    {
+      "id": 36,
+      "pertanyaan": "Sebuah toko mencatat keuntungan Rp250.000 pada hari Senin dan kerugian Rp80.000 pada hari Selasa. Total keuntungan/kerugian toko selama dua hari tersebut adalah...",
+      "opsi": [
+        "Untung Rp170.000",
+        "Rugi Rp170.000",
+        "Untung Rp330.000",
+        "Rugi Rp330.000"
+      ],
+      "jawaban": 0
+    },
+    {
+      "id": 37,
+      "pertanyaan": "Sebuah mobil mula-mula berada di posisi 0 km. Mobil bergerak maju 45 km, lalu mundur 60 km untuk mengambil barang yang tertinggal. Posisi mobil sekarang adalah...",
+      "opsi": ["-15 km", "15 km", "-105 km", "105 km"],
+      "jawaban": 0
+    },
+    {
+      "id": 38,
+      "pertanyaan": "Suhu di puncak gunung adalah -6°C. Pada siang hari, suhu naik 3°C setiap 2 jam selama 4 jam. Suhu di puncak gunung setelah 4 jam adalah...",
+      "opsi": ["0°C", "-12°C", "6°C", "-3°C"],
+      "jawaban": 0
+    },
+    {
+      "id": 39,
+      "pertanyaan": "Seorang pendaki berada pada ketinggian 350 meter di atas permukaan laut. Ia turun 120 meter, lalu naik lagi 45 meter. Ketinggian pendaki sekarang adalah...",
+      "opsi": ["275 meter", "215 meter", "365 meter", "425 meter"],
+      "jawaban": 0
+    },
+    {
+      "id": 40,
+      "pertanyaan": "Sebuah elevator tambang berada pada kedalaman 120 meter di bawah permukaan tanah. Elevator naik 45 meter, kemudian turun lagi 15 meter. Posisi elevator sekarang adalah...",
+      "opsi": ["-90 meter", "-180 meter", "90 meter", "-150 meter"],
+      "jawaban": 0
+    }
+  ]
+}

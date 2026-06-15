@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ruang Belajar Mandiri - Skolvix</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Tambahan styling khusus untuk tampilan PDF yang lebih nyaman */
+        body {
+            background: var(--bg);
+            padding: 16px;
+            margin: 0;
+        }
+
+        .container.wide {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .pdf-frame-wrapper {
+            width: 100%;
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid var(--card-border);
+            background: var(--card);
+            margin-top: 16px;
+        }
+
+        .pdf-frame-wrapper iframe {
+            width: 100%;
+            height: 75vh;
+            /* tinggi dinamis untuk desktop */
+            border: none;
+            display: block;
+        }
+
+        /* Untuk layar HP, atur tinggi lebih proporsional */
+        @media (max-width: 768px) {
+            .pdf-frame-wrapper iframe {
+                height: 65vh;
+            }
+
+            .container.wide {
+                padding: 0;
+            }
+
+            .card {
+                padding: 16px;
+            }
+        }
+
+        .pdf-fallback {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        .pdf-fallback a {
+            color: var(--cyan);
+            text-decoration: none;
+        }
+
+        .selector-row {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .selector-group label {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .selector-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .selector-chip {
+            background: var(--white05);
+            border: 1px solid var(--card-border);
+            border-radius: 999px;
+            padding: 6px 14px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text);
+        }
+
+        .selector-chip.active {
+            background: rgba(0, 212, 255, 0.15);
+            border-color: var(--cyan);
+            color: var(--cyan);
+        }
+
+        .selector-chip.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .selector-chip:not(.disabled):hover {
+            border-color: var(--primary-light);
+        }
+
+        .belum-tersedia {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-dim);
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .user-stats a {
+            background: var(--card);
+            border: 1px solid var(--card-border);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container wide">
+        <!-- HEADER -->
+        <div class="header">
+            <div class="logo">⚡ Skolvix</div>
+            <div class="user-stats">
+                <a href="../app.html" class="stat-pill" style="text-decoration:none;">← Dashboard</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📚 Ruang Belajar Mandiri</h2>
+            <p class="subtitle">Pilih kelas, pelajaran, dan bab untuk membaca materi resmi dari SIBI (Kemendikbud).
+                Gratis tanpa batas.</p>
+
+            <div class="selector-row">
+                <div class="selector-group">
+                    <label>Kelas</label>
+                    <div class="selector-options" id="kelasOptions"></div>
+                </div>
+                <div class="selector-group">
+                    <label>Pelajaran</label>
+                    <div class="selector-options" id="pelajaranOptions"></div>
+                </div>
+                <div class="selector-group">
+                    <label>Bab</label>
+                    <div class="selector-options" id="babOptions"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="materiCard">
+            <h2 id="materiTitle">📘 Matematika Kelas 7 — Bab 1: Bilangan Bulat</h2>
+            <p class="subtitle" id="materiSubtitle">Sumber: Buku Matematika untuk SMP/MTs Kelas VII, Kurikulum Merdeka
+                (SIBI)</p>
+            <div id="materiContent"></div>
+        </div>
+    </div>
+
+    <script src="belajar.js"></script>
+</body>
+
+</html>

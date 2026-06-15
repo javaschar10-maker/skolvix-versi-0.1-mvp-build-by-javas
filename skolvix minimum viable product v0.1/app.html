@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolvix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <div class="logo">⚡ Skol<span>vix</span></div>
+            <div class="user-stats">
+                <div class="stat-pill koin">🪙 <span id="koinDisplay">0</span></div>
+                <div class="stat-pill energi">⚡ <span id="energiDisplay">5</span>/5</div>
+                <a href="index.html" class="stat-pill" style="text-decoration:none;color:var(--text-dim);">Keluar</a>
+            </div>
+        </div>
+
+        <!-- LOGIN (username sederhana, tanpa password untuk MVP) -->
+        <div class="card" id="loginCard">
+            <h2>Masuk dengan Nama</h2>
+            <p class="subtitle">MVP ini pakai nama unik saja (tanpa password) untuk simpel. Nanti bisa diupgrade ke
+                login Google.</p>
+            <input type="text" id="usernameInput" placeholder="Contoh: SENKU"
+                style="width:100%;padding:12px;border-radius:10px;border:none;background:#2d3748;color:#fff;margin-bottom:10px;font-size:14px;">
+            <button class="btn btn-primary" id="loginBtn">Masuk / Daftar</button>
+        </div>
+
+        <!-- DASHBOARD (muncul setelah login) -->
+        <div id="dashboard" class="hidden">
+
+            <div class="card">
+                <h2>Halo, <span id="namaUserDisplay"></span> 👋</h2>
+                <p class="subtitle">Streak harian: <span id="streakDisplay">0</span> hari 🔥</p>
+            </div>
+
+            <div class="card">
+                <h2>📚 Ruang Belajar Mandiri</h2>
+                <p class="subtitle">Baca materi resmi dari kurikulum (SIBI/Kemendikbud), gratis tanpa batas energi.</p>
+                <a href="materi/belajar.html" class="btn btn-secondary">Buka Ruang Belajar</a>
+            </div>
+
+            <div class="card">
+                <h2>👨‍🏫 Pilih Guru AI</h2>
+                <p class="subtitle">Guru ini akan memberi feedback setelah kamu menyelesaikan kuis.</p>
+                <div class="persona-select-grid" id="personaSelectGrid">
+                    <!-- diisi oleh JS -->
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📘 Matematika - Bab 1</h2>
+                <p class="subtitle">Bilangan Bulat (Kurikulum Merdeka, sumber: SIBI)</p>
+                <a href="https://buku.kemdikbud.go.id/" target="_blank"
+                    style="font-size:12px;color:var(--primary-light);">
+                    
+                </a>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progressBab1" style="width:0%"></div>
+                </div>
+                <button class="btn btn-primary mt-10" id="startQuizBtn">Mulai Kuis (1 Energi)</button>
+                <p class="empty-energy-msg hidden" id="noEnergyMsg">
+                    Energi kamu habis. Tunggu reset besok jam 00:00, atau lanjut baca materi (gratis tanpa batas).
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🏆 Badge Kamu</h2>
+                <div class="badge-list" id="badgeList">
+                    <!-- diisi oleh JS -->
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📊 Leaderboard</h2>
+                <div id="leaderboardList" class="subtitle">Memuat...</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="feedback-personas.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

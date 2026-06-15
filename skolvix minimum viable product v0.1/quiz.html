@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis - Skolvix Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">⚡ Skolvix</div>
+            <div class="user-stats">
+                <div class="stat-pill koin">🪙 <span id="koinDisplay">0</span></div>
+            </div>
+        </div>
+
+        <!-- TAMPILAN SOAL -->
+        <div class="card" id="quizCard">
+            <div class="quiz-progress">Soal <span id="soalKe">1</span> dari <span id="totalSoal">10</span></div>
+            <div class="quiz-question" id="pertanyaan">Memuat soal...</div>
+            <div id="opsiContainer"></div>
+        </div>
+
+        <!-- TAMPILAN HASIL -->
+        <div class="card hidden" id="resultCard">
+            <h2 class="text-center">Hasil Kuis</h2>
+            <div class="result-score" id="resultScore">0<span>/100</span></div>
+            <div class="koin-gain" id="koinGain">+0 Koin IQ</div>
+            <div class="feedback-box" id="feedbackBox"></div>
+            <button class="btn btn-primary" id="backToHomeBtn">Kembali ke Dashboard</button>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="feedback-personas.js"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
